@@ -1,0 +1,315 @@
+﻿@model List<ArcDocument>
+@inject IHttpContextAccessor _sessionContxt;
+@{
+    int sn = 0;
+}
+
+@foreach (var document in Model)
+{
+    @if (document.Status == 0 && (_sessionContxt.HttpContext.Session.GetInt32("EmployeeId") == document.EmployeeId))
+    {
+        <div class="container px-2">
+            <form method="post" asp-action="InitiateFile" asp-controller="Employee" enctype="multipart/form-data">
+                <h2>Initiated Documents</h2>
+                <div class="mb-3">
+                    <label>File</label>
+                    <input type="text" class="form-control" name="ArcDocumentName" value="@(document.ArcDocumentName)" disabled />
+                    <label>Description</label>
+                    <textarea rows="10" placeholder="Enter file description . . ." class="form-control" name="ArcDocumentDescription" disabled>@(document.ArcDocumentDescription)</textarea>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>
+                                        <div class="d-flex align-items-center mb-2 ms-3">
+                                            Choose Recommenders
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="d-flex align-items-center justify-content-end me-2">
+                                            <a class="btn btn-primary fs-5 px-3 py-0 pb-1" style="background:#0d6efd !important;">+</a>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <select class="form-select" name="Approvailer.EmployeeId">
+                                            <option value="">Select-Recommender</option>
+                                            @foreach (var employee in document.EmployeeIds.Take(3))
+                                            {
+                                                @foreach (var employeeId in ViewBag.EmployeeList)
+                                                {
+                                                    @if (employeeId.EmployeeId == employee)
+                                                        @if (employeeId.EmployeeId == employee)
+                                                        {
+                                                            <option value="@(employeeId.EmployeeId)" disabled>@(employeeId.EmployeeName)</option>
+                                                        }
+                                                }
+                                            }
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="mb-1 fs-5">Approvers</label>
+                        <select class="form-select" name="Approvailer.EmployeeId">
+                            <option value="">Select-Approvailer</option>
+                            @foreach (var employee in document.EmployeeIds.TakeLast(1))
+                            {
+                                @foreach (var employeeId in ViewBag.EmployeeList)
+                                {
+                                    @if (employeeId.EmployeeId == employee)
+                                    {
+                                        <option value="@(employeeId.EmployeeId)" disabled>@(employeeId.EmployeeName)</option>
+                                    }
+                                }
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-success mt-4" disabled>Send Approval</button>
+                </div>
+            </form>
+        </div>
+    }
+    else if ((int)document.Status == 1 && (_sessionContxt.HttpContext.Session.GetInt32("EmployeeId") == document.EmployeeId))
+    {
+        <div class="container px-2">
+            <form method="post" asp-action="InitiateFile" asp-controller="Employee" enctype="multipart/form-data">
+                <input type="hidden" value="@(document.ArcDocumentId)" name="ArcDocumentId"/>
+                <h2>Initiated Documents</h2>
+                <div class="mb-3">
+                    <label>File</label>
+                    <input type="text" class="form-control" name="ArcDocumentName" value="@(document.ArcDocumentName)" />
+                    <label>Description</label>
+                    <textarea rows="10" placeholder="Enter file description . . ." class="form-control" name="ArcDocumentDescription">@(document.ArcDocumentDescription)</textarea>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>
+                                        <div class="d-flex align-items-center mb-2 ms-3">
+                                            Choose Recommenders
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="d-flex align-items-center justify-content-end me-2">
+                                            <a class="btn btn-primary fs-5 px-3 py-0 pb-1" style="background:#0d6efd !important;">+</a>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @* <td> *@
+                                @*  <select class="form-select" name="Recommenders.EmployeeId">
+                        @foreach (var employee in document.EmployeeIds.Take(3))
+                        {
+                        @foreach (var employeeId in ViewBag.EmployeeList)
+                        {
+                        @if (employeeId.EmployeeId == employee)
+                        {
+                        <option value="@(employeeId.EmployeeId)" selected>@(employeeId.EmployeeName)</option>
+                        }
+                        }
+                        }
+                        </select> *@
+                                @foreach (var employee in document.EmployeeIds.Take(3))
+                                {
+                                    @foreach (var employeeId in ViewBag.EmployeeList)
+                                    {
+                                        @if (employeeId.EmployeeId == employee)
+                                        {
+                                            <tr>
+                                                <td><input name="Recommenders.index" value="@(sn)" hidden></td>
+                                                <td>
+                                                    <select class="form-select" name="Recommenders[@(sn++)].EmployeeId">
+                                                        <option value="@(employeeId.EmployeeId)" selected>@(employeeId.EmployeeName)</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="mb-1 fs-5">Approvers</label>
+                        <select class="form-select" name="Approvailer.EmployeeId">
+                            @foreach (var employee in document.EmployeeIds.TakeLast(1))
+                            {
+                                @foreach (var employeeId in ViewBag.EmployeeList)
+                                {
+                                    @if (employeeId.EmployeeId == employee)
+                                    {
+                                        <option value="@(employeeId.EmployeeId)" selected>@(employeeId.EmployeeName)</option>
+                                    }
+                                }
+                            }
+                        </select>
+                    </div>
+                </div>
+                <span class="text-danger">! @(document.Remarks)</span>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-success mt-4">Send Approval</button>
+                </div>
+            </form>
+        </div>
+    }
+    else if ((int)document.Status == 2 && (_sessionContxt.HttpContext.Session.GetInt32("EmployeeId") == document.EmployeeId))
+    {
+        <div class="container px-2">
+            <form method="post" asp-action="InitiateFile" asp-controller="Employee" enctype="multipart/form-data">
+                <h2>Initiated Documents</h2>
+                <div class="mb-3">
+                    <label>File</label>
+                    <input type="text" class="form-control" name="ArcDocumentName" value="@(document.ArcDocumentName)" readonly />
+                    <label>Description</label>
+                    <textarea rows="10" placeholder="Enter file description . . ." class="form-control" name="ArcDocumentDescription" readonly>@(document.ArcDocumentDescription)</textarea>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>
+                                        <div class="d-flex align-items-center mb-2 ms-3">
+                                            Choose Recommenders
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="d-flex align-items-center justify-content-end me-2">
+                                            <a class="btn btn-primary fs-5 px-3 py-0 pb-1" style="background:#0d6efd !important;">+</a>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <select class="form-select" name="Approvailer.EmployeeId">
+                                            <option value="">Select-Recommender</option>
+                                            @foreach (var employee in document.EmployeeIds.Take(3))
+                                            {
+                                                @foreach (var employeeId in ViewBag.EmployeeList)
+                                                {
+                                                    @if (employeeId.EmployeeId == employee)
+                                                        @if (employeeId.EmployeeId == employee)
+                                                        {
+                                                            <option value="@(employeeId.EmployeeId)" disabled>@(employeeId.EmployeeName)</option>
+                                                        }
+                                                }
+                                            }
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="mb-1 fs-5">Approvers</label>
+                        <select class="form-select" name="Approvailer.EmployeeId">
+                            <option value="">Select-Approvailer</option>
+                            @foreach (var employee in document.EmployeeIds.TakeLast(1))
+                            {
+                                @foreach (var employeeId in ViewBag.EmployeeList)
+                                {
+                                    @if (employeeId.EmployeeId == employee)
+                                    {
+                                        <option value="@(employeeId.EmployeeId)" disabled>@(employeeId.EmployeeName)</option>
+                                    }
+                                }
+                            }
+                        </select>
+                    </div>
+                </div>
+                <span class="text-success">! @(document.Remarks)</span>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-success mt-4" disabled>Send Approval</button>
+                </div>
+            </form>
+        </div>
+    }
+}
+
+
+<div class="container px-2">
+    <form method="post" asp-action="InitiateFile" asp-controller="Employee" enctype="multipart/form-data">
+        <h2>Initiate Document</h2>
+        <div class="mb-3">
+            <label>File</label>
+            <input type="text" class="form-control" name="ArcDocumentName" />
+            <label>Description</label>
+            <textarea rows="10" placeholder="Enter file description . . ." class="form-control" name="ArcDocumentDescription"></textarea>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table">
+                    <thead class="table-light">
+                        <tr>
+                            <th>
+                                <div class="d-flex align-items-center mb-2 ms-3">
+                                    Choose Recommenders
+                                </div>
+                            </th>
+                            <th>
+                                <div class="d-flex align-items-center justify-content-end me-2">
+                                    <a class="btn btn-primary fs-5 px-3 py-0 pb-1" style="background:#0d6efd !important;" id="addRecommender">+</a>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <label class="mb-1 fs-5">Approvers</label>
+                <select class="form-select" name="Approvailer.EmployeeId">
+                    <option value="">Select-Approvailer</option>
+                    @foreach (var employee in ViewBag.EmployeeList)
+                    {
+                        <option value="@(employee.EmployeeId)">@(employee.EmployeeName)</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-success mt-4">Send Approval</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var count = 0;
+            $('#addRecommender').click(function () {
+                count++;
+                var selectedFields = `<tr>
+                                                    <td><input name="Recommenders.index" value=${count}></td>
+                                                    <td>
+                                                        <select class="form-select" name="Recommenders[${count}].EmployeeId">
+                                                            <option value="">Select-Recommender</option>
+        @foreach (var employee in ViewBag.EmployeeList)
+        {
+                                                                                    <option value="@(employee.EmployeeId)">@(employee.EmployeeName)</option>
+        }
+                                                        </select>
+                                                    </td>
+                                                 </tr>
+                                                 `
+                $('#tbody').append(selectedFields);
+            });
+        });
+    </script>
+}

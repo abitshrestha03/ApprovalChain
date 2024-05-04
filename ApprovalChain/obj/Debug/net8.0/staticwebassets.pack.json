@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ApprovalChain.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ApprovalChain.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\05873898-ac09-4b32-848c-e4ae7a24e41e.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\05873898-ac09-4b32-848c-e4ae7a24e41e.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\27353861-d634-4758-9ee1-dbf11e839a39.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\27353861-d634-4758-9ee1-dbf11e839a39.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\3002cb36-eb4e-47c8-bce3-451b0b5a2a04.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\3002cb36-eb4e-47c8-bce3-451b0b5a2a04.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\3ec9f16e-8135-4b0f-8311-7cb24bd7f841.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\3ec9f16e-8135-4b0f-8311-7cb24bd7f841.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\40f7cf37-2dad-4e3c-9bd2-dedab44d51e8.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\40f7cf37-2dad-4e3c-9bd2-dedab44d51e8.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\4e48df9f-8232-4ef3-9ce0-4c090f03530e.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\4e48df9f-8232-4ef3-9ce0-4c090f03530e.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\5cf73de2-8279-4f30-88c7-9db0430acd91.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\5cf73de2-8279-4f30-88c7-9db0430acd91.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\5d93883a-6f69-44b8-9ade-8e51c2da4fe9.gz",
+      "PackagePath": "staticwebassets\\Image\\Upload\\5d93883a-6f69-44b8-9ade-8e51c2da4fe9.gz"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\6e97357c-c2d7-4467-a356-6371e3139f2c.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\6e97357c-c2d7-4467-a356-6371e3139f2c.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\7abe4b18-e44a-4a38-b3a5-b7414b738a5c.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\7abe4b18-e44a-4a38-b3a5-b7414b738a5c.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\7f6c5e3a-bb3f-4f02-9392-69e7859b682f.pptx",
+      "PackagePath": "staticwebassets\\Image\\Upload\\7f6c5e3a-bb3f-4f02-9392-69e7859b682f.pptx"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\85412dcc-2d5f-41cf-9fa5-038f41ac6ef7.docx",
+      "PackagePath": "staticwebassets\\Image\\Upload\\85412dcc-2d5f-41cf-9fa5-038f41ac6ef7.docx"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\8b30051b-ad4b-4c0f-82c5-cee4179e3599.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\8b30051b-ad4b-4c0f-82c5-cee4179e3599.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\a8e68a8d-4451-4a06-a51c-56f533d90349.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\a8e68a8d-4451-4a06-a51c-56f533d90349.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\d49f34b9-e2f7-4ed5-a00d-2811a9b47cd9.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\d49f34b9-e2f7-4ed5-a00d-2811a9b47cd9.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\Image\\Upload\\e28f6e32-7612-4e0a-9144-fc8384846c00.pdf",
+      "PackagePath": "staticwebassets\\Image\\Upload\\e28f6e32-7612-4e0a-9144-fc8384846c00.pdf"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Intern\\ApprovalChain\\ApprovalChain\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ApprovalChain.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ApprovalChain.props",
+      "PackagePath": "build\\ApprovalChain.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ApprovalChain.props",
+      "PackagePath": "buildMultiTargeting\\ApprovalChain.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ApprovalChain.props",
+      "PackagePath": "buildTransitive\\ApprovalChain.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

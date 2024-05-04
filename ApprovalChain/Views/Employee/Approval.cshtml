@@ -1,0 +1,60 @@
+﻿@inject IHttpContextAccessor _sessionContxt;
+@model List<ArcDocument>
+<div class="container">
+    <h2>Approval Documents</h2>
+    <form method="post" asp-action="Approve" asp-controller="Employee" enctype="multipart/form-data">
+        @foreach (var document in Model)
+        {
+            @if (_sessionContxt.HttpContext?.Session.GetInt32("EmployeeId") == document.ChangeHandler)
+            {
+                <input type="hidden" value="@document.ArcDocumentId" name="ArcDocumentId" />
+                <div class="mb-3 mt-2">
+                    <label for="ArcDocumentName" class="form-label">Select File</label>
+                    <input type="text" class="form-control" id="ArcDocumentName" value="@document.ArcDocumentName" name="ArcDocumentName" readonly required>
+                </div>
+                <div class="mb-3">
+                    <label for="ArcDocumentDescription" class="form-label">Description</label>
+                    <textarea class="form-control" id="ArcDocumentDescription" name="ArcDocumentDescription" rows="3" readonly>@document.ArcDocumentDescription</textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Approve</button>
+                <button type="button" class="btn btn-danger rejectButton" data-bs-toggle="modal" data-document-id="@(document.ArcDocumentId)" data-bs-target="#rejectModal">Reject</button>
+            }
+        }
+    </form>
+</div>
+
+<!-- Reject Modal -->
+<div class="modal fade" id="rejectModal" tabindex="-1" aria-labelledby="rejectModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="rejectModalLabel">Reason for Rejection</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form id="rejectForm" asp-action="RejectDocument" asp-controller="Employee">
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="rejectionReason" class="form-label">Reason</label>
+                        <textarea class="form-control" id="rejectionReason" name="rejectionReason" rows="3" required></textarea>
+                    </div>
+                    <input type="hidden" id="rejectDocumentId" name="ArcDocumentId" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" form="rejectForm" class="btn btn-danger">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.rejectButton').click(function () {
+                var documentId = $(this).data('document-id');
+                $('#rejectDocumentId').val(documentId);
+            });
+        });
+    </script>
+}
