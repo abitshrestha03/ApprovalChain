@@ -54,7 +54,7 @@ namespace ApprovalChain.Repository
                 }
                 else if (currentIndex == Ids.Length - 1)
                 {
-                    currentDocument.ChangeHandler = Ids[0];
+                    currentDocument.ChangeHandler = null;
                     currentDocument.Status = ArcDocument.DocumentStatus.Approved;
                     currentDocument.Remarks = "Approved";
                     _dbContext.ArcDocuments.Update(currentDocument);
